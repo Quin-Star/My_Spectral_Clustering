@@ -1,0 +1,10 @@
+# ===== 核心依赖=====
+numpy>=1.17
+matplotlib>=3.1
+
+# ===== 可选依赖 =====
+# 跑 `python main.py --all --compare` 时需要（与 sklearn 做对照实验）
+# scikit-learn>=0.24
+
+# 类别数 > 8 时的匈牙利匹配需要（类别少时用穷举，不需要它）
+# scipy>=1.5
